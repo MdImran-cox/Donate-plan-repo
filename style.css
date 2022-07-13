@@ -109,6 +109,7 @@ body {}
 }
 
 #img-1 {
+    background-color: antiquewhite;
     background-image: url(icons/food.png);
     background-repeat: no-repeat;
     background-size: 20%;
@@ -117,6 +118,7 @@ body {}
 }
 
 #img-2 {
+    background-color: deeppink;
     background-image: url(icons/shelter.png);
     background-repeat: no-repeat;
     background-size: 20%;
@@ -125,9 +127,22 @@ body {}
 }
 
 #img-3 {
+    background-color: darksalmon;
     background-image: url(icons/medicine.svg);
     background-repeat: no-repeat;
     background-size: 20%;
     background-position-x: 15px;
     background-position-y: 80px;
+}
+
+.part-6 {
+    display: flex;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.img {
+    border-radius: 10px;
 }
