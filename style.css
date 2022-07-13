@@ -16,8 +16,10 @@ body {}
 }
 
 .btn {
+    color: white;
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
+    margin: auto;
     padding: 10px 20px;
     border-radius: 20px;
 }
@@ -31,7 +33,7 @@ body {}
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .Donate {
@@ -39,7 +41,7 @@ body {}
     box-shadow: 10px 10px 40px gray;
     background-image: linear-gradient(white);
     margin: 10px;
-    padding: 40px 40px;
+    padding: 100px 80px;
     border-radius: 10px;
 }
 
@@ -48,10 +50,31 @@ body {}
     box-shadow: 10px 10px 40px gray;
     background-color: rgba(244, 108, 108, 0.637);
     margin: 10px;
-    padding: 40px 40px;
+    padding: 100px 80px;
     border-radius: 10px;
 }
 
 .Orenge {
     border: 7px solid rgba(232, 12, 12, 0.703);
+}
+
+.part-3 {
+    color: gray;
+    margin-top: 100px;
+    padding: 40px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 5px;
+}
+
+.btn-2 {
+    margin-top: 100px;
+}
+
+.Donate-button {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 20px;
 }
