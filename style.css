@@ -87,30 +87,47 @@ body {}
     font-size: 40px;
 }
 
-.btn-3 {
-    width: 1000px;
-    font-size: 20px;
-    display: flex;
-    padding: 10px;
+.part-5 {
+    text-align: center;
 }
 
 .shadow {
-    text-align: center;
-    margin: 10px;
-    box-shadow: 10px 10px 40px gray;
-    width: 50%;
-    padding: 100px 10px;
-    height: 200px;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: start;
+}
+
+.box {
+    box-shadow: 10px 10px 40px gray;
+    margin: 15px;
+    width: 40%;
+    height: 500px;
+    padding-top: 10%;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+#img-1 {
+    background-image: url(icons/food.png);
     background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-x: 15px;
+    background-position-y: 80px;
 }
 
-.btn-3 {
-    font-display: center;
+#img-2 {
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-x: 15px;
+    background-position-y: 80px;
 }
 
-#colr1 {
-    background-position: 10px 10px;
-    background-image: url(icons/Frame-1.png);
-    background-color: rgba(244, 248, 134, 0.252);
+#img-3 {
+    background-image: url(icons/medicine.svg);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-x: 15px;
+    background-position-y: 80px;
 }
