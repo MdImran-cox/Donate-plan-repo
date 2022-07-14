@@ -100,11 +100,11 @@ body {}
 
 .box {
     box-shadow: 10px 10px 40px gray;
-    margin: 15px;
+    margin: 10px;
     width: 40%;
     height: 500px;
-    padding-top: 10%;
-    padding-left: 10px;
+    padding-top: 15%;
+    padding-left: 15px;
     font-size: 40px;
 }
 
@@ -163,4 +163,42 @@ body {}
 .img-2 {
     width: 90%;
     border-radius: 10px;
+}
+
+.part-8 {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mail {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(253, 210, 92);
+    padding: 50px;
+}
+
+.mail {
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 100px;
+}
+
+.foter {
+    display: block;
+    text-align: center;
+    color: brown;
+    background-color: black;
+    font-size: 20px;
+    padding: 40px;
+}
+
+#white {
+    color: white;
 }
