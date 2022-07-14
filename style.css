@@ -146,3 +146,21 @@ body {}
 .img {
     border-radius: 10px;
 }
+
+.part-7 {
+    display: flex;
+    margin: 10px;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.half-width {
+    width: 50%;
+    font-size: 30px;
+}
+
+.img-2 {
+    width: 90%;
+    border-radius: 10px;
+}
